@@ -103,15 +103,7 @@ rtbtool = "roboticstoolbox.bin.rtbtool:main"
 
 [build-system]
 
-requires = ["numpy>=2", "pybind11>=2.12", "hatchling"] #, "oldest-supported-numpy"]
-build-backend = "hatchling.build"
-
-
-[tool.hatch.build.targets.wheel]
-only-include = ["roboticstoolbox"]
-
-[tool.hatch.build.targets.sdist]
-include = ["roboticstoolbox", "pyproject.toml", "README.*", "LICENSE*"]
+requires = ["numpy>=2", "pybind11>=2.12", "setuptools"] #, "oldest-supported-numpy"]
 
 [tool.setuptools]
 
