@@ -109,27 +109,6 @@ build-backend = "scikit_build_core.build"
 [tool.scikit-build]
 wheel.packages = ["roboticstoolbox"]
 
-[tool.setuptools]
-
-packages = [
-    "roboticstoolbox",
-    "roboticstoolbox.backends",
-    "roboticstoolbox.backends.PyPlot",
-    "roboticstoolbox.backends.swift",
-    "roboticstoolbox.bin",
-    "roboticstoolbox.blocks",
-    "roboticstoolbox.examples",
-    "roboticstoolbox.bin",
-    "roboticstoolbox.robot",
-    "roboticstoolbox.mobile",
-    "roboticstoolbox.models",
-    "roboticstoolbox.models.DH",
-    "roboticstoolbox.models.ETS",
-    "roboticstoolbox.models.URDF",
-    "roboticstoolbox.tools",
-    "roboticstoolbox.tools.urdf",
-    "roboticstoolbox.tools.xacro",
-]
 
 
 [tool.black]
